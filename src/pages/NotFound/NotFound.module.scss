@@ -1,0 +1,37 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.wrapper .wrapper_inner{
+  text-align: center;
+}
+
+.wrapper .wrapper_inner .heading {
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: -10px;
+}
+
+.wrapper .wrapper_inner .text_danger {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn{
+  color: white;
+  background-color: #007bff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  font: inherit;
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}

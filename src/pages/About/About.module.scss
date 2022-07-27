@@ -1,0 +1,49 @@
+.container_fluid{
+  width: 100vw;
+  height: calc(100vh - 4rem);
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 8rem;
+}
+
+.container{
+  margin: 100px auto;
+}
+
+.text_heading {
+  margin-bottom: 15px;
+}
+
+.text_paragraph {
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding: 0 100px;
+  text-align: justify;
+}
+
+.btn_custom{
+  background-color: #F94C66;
+ }
+
+.btn{
+  color: white;
+  background-color: #007bff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  font: inherit;
+ }
+
+ @media (max-width: 768px) {
+  .text_heading {
+  margin-bottom: 50px;
+  }
+
+  .text_paragraph{
+  display: none;
+  }
+}

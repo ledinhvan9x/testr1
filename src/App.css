@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+/* CSS PAGINATION */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto -4rem;
+}
+
+.paginationBttns a {
+  padding: 10px 12px;
+  margin: 6px;
+  border-radius: 7px;
+  border: 1px solid black;
+  color: #2b2eff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #A10035;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #A10035;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+/* CSS PAGINATION */
+

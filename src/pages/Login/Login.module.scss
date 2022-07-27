@@ -1,0 +1,50 @@
+.container_fluid{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  padding-top: 8rem;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background: #FFF9CA;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  padding: 30px;
+}
+
+.center h1{
+  text-align: center;
+  padding: 0px 0 20px;
+  border-bottom: 1px solid silver;
+}
+
+.btn{
+  width: 40%;
+  height: 45px;
+  border: 1px solid;
+  background: #2691d9;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #e9f4fb;
+  font-weight: 550;
+  cursor: pointer;
+  outline: none;
+  margin: 0 10px;
+}
+
+.btn_custom{
+  background-color: #56b35f!important;
+  margin: 0 10px;
+}
+
+button:hover{
+  border-color: #2691d9;
+  transition: .5s;
+}
+
